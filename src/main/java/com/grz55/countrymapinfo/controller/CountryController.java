@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 @Controller
 public class CountryController {
 
-    @GetMapping("/map")
+    @GetMapping("/")
     public String showCountry(@RequestParam(name = "country", defaultValue = "poland") String countryName, Model model) {
         RestTemplate restTemplate = new RestTemplate();
         String url = "https://restcountries.eu/rest/v2/name/" + countryName;
