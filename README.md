@@ -2,7 +2,7 @@
 
 # How to start: 
 
-Heroku link:  (launching may take 15 seconds, Heroku needs to start the app)
+Heroku link: https://country-map-info.herokuapp.com/  (launching may take 15 seconds, Heroku needs to start the app)
 or pull into IDE.
 
 # Description: 
